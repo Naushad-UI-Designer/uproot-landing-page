@@ -1,0 +1,583 @@
+.ks-top-header {
+    background-color: #eae9ff;
+}
+.ks-top-div1, .ks-top-div2 {
+    display: flex;
+    align-items: center;
+}
+.ks-top-div1 p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    color: #232323;
+    font-weight: 400;
+    text-align: right;
+}
+body {
+    font-family: "Signika Negative";  
+}
+img {
+    vertical-align: middle;
+    outline: none;
+}
+.ks-fev-counter {
+    margin-left: 5px;
+    margin-right: 20px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    line-height: 7px;
+    vertical-align: middle;
+}
+.ks-navbar-parent {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.ks-navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.ks-uproot-default-btn {
+    border-radius: 0px 10px 10px 10px;
+    cursor: pointer; 
+    border: none;
+    font-size: 18px;
+    color: #232323;
+    font-weight: 400;
+}
+.ks-uproot-white-btn {
+    padding: 13px 50px;
+    background-color: #fff;
+}
+.ks-uproot-color-btn {
+    background-color: #d1e517;
+    padding: 15px 30px;
+}
+.ks-nav-link.ks-nav-btn {
+    background-color: #d1e517;
+    border-radius: 0px 10px 10px 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.ks-nav-link {
+    background-color: transparent;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #232323;
+    font-weight: 400;
+}
+.ks-nav-link span {
+    cursor: pointer;
+}
+.ks-banner-img {
+    content: "";
+    background-image: url(../../images/landing-page-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+.ks-bg-white {
+    background-color: #fff !important;
+}
+.ks-banner-content {
+    padding: 35px 40px;
+}
+.ks-banner-content h2 {
+    font-size: 43px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.ks-banner-content p {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.ks-info-form {
+    padding-top: 70px;
+}
+.ks-form-fieldset {
+    border: none;
+}
+.ks-marketplace-field {
+    display: grid;
+    margin-bottom: 20px;
+    flex-basis: 42%;
+    margin-left: 75px;
+}
+.ks-marketplace-field label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #808080;
+    font-weight: 400;
+}
+.ks-marketplace-field input, .ks-marketplace-field input, .ks-marketplace-field select {
+    min-height: 36px;
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 0px 8px 8px;
+    outline: none;
+}
+.ks-business-icon {
+    flex-basis: calc(100% / 7);
+    text-align: center;
+}
+.ks-business-icon div {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #808080;
+    font-weight: 400;
+    text-align: center;
+}
+.footer-section {
+    background-color: #c0b1ec;
+}
+.footer-inner-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ks-footer-partner-section {
+    background-color: #fff;
+    border-radius: 0px 10px 10px 10px;
+    padding: 30px 30px 20px;
+    color: #2f1e60;
+    flex-basis: 40%;
+}
+.bottom-footer-info {
+    padding: 20px 0px
+}
+.ks-top-header-social-icon {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #aca5a5;
+    padding: 1px;
+    border-radius: 100%;
+    margin-left: 7px;
+}
+.ks-required-star::after, .ks-form-icon-label.ks-required-star::before {
+    content: '*';
+    color: #cb0808;
+    font-size: 1rem;
+    margin: 0px 0px 0 3px;
+    vertical-align: middle;
+    font-weight: 500;
+}
+.ks-form-icon-label.ks-required-star::before {
+    margin: 0px 3px 0 0spx;
+}
+.ks-form-icon-label.ks-required-star::after {
+    display: none;
+}
+.ks-form-icon-section {
+    margin-left: 60px;
+    margin-right: 25px;
+}
+.ks-form-icon-section .ks-marketplace-field {
+    margin-left: 0px;
+}
+.ks-form-icon-label p {
+    display: inline-block;
+}
+.ks-submit-btn-div {
+    margin-left: auto;
+    width: fit-content;
+    display: block;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    padding: 15px 50px;
+    font-size: 26px;
+}
+.ks-bottom-footer-info span {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 14px;
+    color: #340138;
+    margin-right: 10px;
+}
+.footer-links-1 p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 37px;
+    color: #010001;
+    font-weight: 400;
+    margin: 0px;
+}
+.footer-links .footer-head {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 11px;
+    color: #050505;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.footer-links p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 14px;
+    color: #000000;
+}
+.ks-footer-partner-section h3 {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #340138;
+    font-weight: 400;
+}
+.ks-footer-partner-section p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #340138;
+    font-weight: 400;
+}
+.ks-footer-partner-section button {
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #340138;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+.ks-bottom-footer-info {
+    border-top: 1px solid #b1aeae;
+    padding: 30px 0px;
+}
+.footer-links-1, .footer-links {
+    flex-basis: 20%;
+    padding-top: 40px;
+}
+
+/* landing page css */
+.ks-banner-content h3 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.ks-banner-content.ks-landing-banner-content h2 {
+    color: #340138;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.ks-banner-content.ks-landing-banner-content p {
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 35px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+.ks-landing-banner-content .ks-uproot-white-btn {
+    padding: 13px 30px;
+}
+.ks-banner-content.ks-landing-banner-content {
+    padding: 75px 15px;
+} 
+.ks-work-section h2 {
+    font-size: 41px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;  
+    margin-top: 0px;  
+}
+.ks-work-section {
+    background-color: #c0b1ec;
+    padding-bottom: 15px;
+}
+.ks-uproot-how-work {
+    background-color: #330137;
+    border-radius: 5px 10px 10px 10px;
+    padding: 35px 50px;
+}
+.ks-uproot-how-work-images {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.ks-uproot-work-img {
+    padding-left: 0px;
+    padding-right: 50px;
+}
+.ks-uproot-work-img h3 {
+    font-size: 26px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.ks-uproot-work-img p {
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.ks-register-now-section {
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+.ks-register-now-section h3 {
+    font-size: 33px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.ks-register-bg {
+    border-radius: 0px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 50px 40px 75px;
+    background-color: #330137;
+}
+.ks-product-and-pricing h3 {
+    font-size: 32px;
+    letter-spacing: 0px;
+    color: #340138;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.ks-product-and-pricing ul li {
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #808080;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.ks-product-and-pricing ul {
+    list-style: none;
+    padding: 0px;
+}
+.ks-product-and-pricing  ul li::before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    background-color: #c0b1ec;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+.ks-product-and-pricing p {
+    font-size: 23px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.ks-product-and-pricing p.ks-text-light {
+    color: #808080;
+}
+.ks-product-and-pricing p.ks-font-weight-400 {
+    font-weight: 400;
+}
+.ks-text-light {
+    color: #808080;
+}
+.ks-product-and-pricing {
+    padding: 25px 0px;
+}
+.ks-brand-content h4 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+}
+.ks-brand-content {
+    background-color: #330137;
+    padding: 40px 20px 20px;
+    border-radius: 10px;
+    margin-top: -25px;
+}
+.ks-brand-section {
+    margin-bottom: 2rem;
+}
+.ks-banner {
+    position: relative;
+}
+.ks-brand-content img {
+    width: 100%;
+    margin-top: -65px;
+}
+
+/* why uproot section */
+.ks-why-uproot-images {
+    padding-top: 170px;
+    position: relative;
+}
+.ks-why-uproot-img {
+    position: absolute;
+}
+.ks-why-uproot-img-1 {
+    top: 100px;
+    left: 25px;
+}
+.ks-why-uproot-img-2 {
+    top: 10px;
+    left: 140px;
+}
+.ks-why-uproot-img-3 {
+    top: 85px;
+    left: 230px;
+}
+.ks-why-uproot-img-4 {
+    top: 45px;
+    left: 395px;
+}
+.ks-why-uproot-img-5 {
+    left: 218px;
+    margin-top: 90px;
+}
+.ks-why-uproot-img-6 {
+    left: 218px;
+    margin-top: 310px;
+}
+.ks-why-uproot-img-7 {
+    left: 218px;
+    bottom: 130px;
+}
+.ks-why-uproot-img-8 {
+    bottom: -65px;
+    margin-left: -235px;
+}
+.ks-why-uproot-img-9 {
+    bottom: -83px;
+    margin-left: -100px;
+}
+@media (max-width: 568px) { 
+    .ks-why-uproot-img-1 {
+        top: 128px;
+        left: 2px;
+        width: 80px;
+        height: 80px;
+    }
+    .ks-why-uproot-img-2 {
+        top: 75px;
+        left: 70px;
+        width: 60px;
+        height: 60px;
+    }
+    .ks-why-uproot-img-3 {
+        top: 120px;
+        left: 122px;
+        width: 80px;
+        height: 80px;
+    }
+    .ks-why-uproot-img-4 {
+        top: 100px;
+        left: 215px;
+        width: 60px;
+        height: 60px;
+    }
+    .ks-why-uproot-img-5 {
+        left: 118px;
+        margin-top: 75px;
+        width: 80px;
+        height: 80px;
+    }
+    .ks-why-uproot-img-6 {
+        width: 80px;
+        height: 80px;
+        left: 118px;
+        bottom: 218px;
+    }
+    .ks-why-uproot-img-7 {
+        left: 118px;
+        bottom: 100px;
+        width: 80px;
+        height: 80px;
+    }
+    .ks-why-uproot-img-8 {
+        bottom: -30px;
+        margin-left: -125px;
+        width: 60px;
+        height: 60px;
+    }
+    .ks-why-uproot-img-9 {
+        bottom: -45px;
+        margin-left: -50px;
+        width: 80px;
+        height: 80px;
+    }
+}
+.ks-why-uproot-mobile-img {
+    position: relative;
+    padding-left: 90px;
+    z-index: 1;
+}
+@media (max-width: 568px) {
+    .ks-why-uproot-mobile-img {
+        padding-left: 35px;
+        width: 280px;
+    }
+}
+.ks-why-uproot-section {
+    display: flex;
+    margin-bottom: 7rem;
+}
+@media (max-width: 568px) {
+    .ks-why-uproot-section {
+        display: block;
+    }
+}
+.ks-why-uproot-area {
+    margin-left: 90px;
+    padding-top: 110px;
+}
+@media (max-width: 568px) {
+    .ks-why-uproot-area {
+        margin-left: 0px;    
+    }        
+}
+.ks-why-uproot-area h1 {
+    font-size: 48px;
+    letter-spacing: 1px;
+    color: #340138;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.ks-why-uproot-area h3 {
+    font-size: 32px;
+    letter-spacing: 0px;
+    color: #575656;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.ks-why-uproot-area p {
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #808080;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.ks-why-uproot-content {
+    margin-bottom: 5rem;
+}
